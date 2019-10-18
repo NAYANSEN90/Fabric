@@ -40,4 +40,5 @@ popd
 mv $DPDK_DIR $DOWNLOAD_DIR/dpdk/
 
 export RTE_TARGET=x86_64-default-linuxapp-gcc
-export RTE_SDK=$DOWNLOAD_DIR/dpdk/
+export RTE_SDK="$DOWNLOAD_DIR/dpdk/"
+
